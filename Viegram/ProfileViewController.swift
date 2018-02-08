@@ -58,8 +58,6 @@ class ProfileViewController: UIViewController {
         }
     }
     
-    
-    
     //Pagination
     var totalOffset = Int()
     var currentpage = 1
@@ -268,7 +266,8 @@ class ProfileViewController: UIViewController {
     
     
     
-    func fetchDataapi(page:Int){
+    func fetchDataapi(page:Int)
+    {
         self.apiInProgress = true
         self.view.addSubview(animationView)
         animationView.play()

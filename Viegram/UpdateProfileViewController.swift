@@ -36,18 +36,13 @@
         var cover1 = UIImage()
         let picker = UIImagePickerController()
         var  photopicker = Bool()
-        
-        
-        
-        
-        @IBAction func coverbtn(_ sender: UIButton) {
+
+        @IBAction func coverbtn(_ sender: UIButton)
+        {
             photopicker = true
             imagepicker(sender: sender)
-            
         }
-        
-        
-        
+    
         @IBAction func coverphoto(_ sender: UIButton) {
             photopicker = false
             imagepicker(sender: sender)
@@ -239,10 +234,6 @@
             UpdateMulipartApi()
             
         }
-        
-        
-        
-        
         
         // MARK: - Api call
         
